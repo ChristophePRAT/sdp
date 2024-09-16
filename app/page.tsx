@@ -58,29 +58,29 @@ export default function Home() {
   return (
     <div className="grid items-center justify-items-center min-h-screen place-content-center min-w-screen">
       <main className="flex flex-col align-middle items-center text-center justify-center m-auto min-w-screen">
-        <h1 className="text-4xl my-3 font-medium tracking-wider">Trouver les racines de:</h1>
-        <h2 className="text-5xl border-2 p-4 my-4">
+        <h1 className="sm:text-4xl my-3 font-medium tracking-wider text-2xl">Trouver les racines de:</h1>
+        <h2 className="sm:text-5xl border-2 p-4 my-4 text-2xl">
           <Latex>{p}</Latex>
         </h2>
         <form className="p-6 bg-black shadow-md rounded-lg" onSubmit={onSubmit}>
-          <h3 className="text-xl mb-4">Racines réelles:</h3>
+          <h3 className="sm:text-xl mb-4 text-lg">Racines réelles:</h3>
           <div className="flex justify-between gap-20 mb-8 font-bold w-1/2">
             <input
               type="text"
               maxLength={3}
-              className="border-b-2 border-gray-300 text-5xl p-3 bg-black text-white focus:outline-none focus:ring-0 w-24 text-center"
+              className="border-b-2 border-gray-300 sm:text-5xl text-3xl p-3 bg-black text-white focus:outline-none focus:ring-0 w-24 text-center"
               placeholder="0"
             />
             <input
               type="text"
               maxLength={3}
-              className="border-b-2 border-gray-300 text-5xl p-3 bg-black text-white focus:outline-none focus:ring-0 w-24 text-center"
+              className="border-b-2 border-gray-300 sm:text-5xl text-3xl p-3 bg-black text-white focus:outline-none focus:ring-0 w-24 text-center"
               placeholder="0"
             />
           </div>
           <input
             type="submit"
-            className="bg-white text-2xl text-black font-bold p-3 px-5 rounded-lg cursor-pointer hover:bg-gray-200 transition duration-300"
+            className="bg-white smtext-2xl text-xl text-black font-bold p-3 px-5 rounded-lg cursor-pointer hover:bg-gray-200 transition duration-300"
             value="Valider"
           />
         </form>
