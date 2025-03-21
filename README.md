@@ -1,4 +1,5 @@
 # Second Degree Polynomial (SDP)
+<img width="1710" alt="Screenshot 2025-03-21 at 16 33 12" src="https://github.com/user-attachments/assets/7a58cc73-dab3-431e-a6cf-a18d9a658e32" />
 
 ## TLDR
 
